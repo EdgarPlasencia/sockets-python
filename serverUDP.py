@@ -2,7 +2,7 @@ import socket
 
 # Crear un socket UDP
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
+sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEPORT, 1)
 # Configurar socket
 HOST=""
 PORT=10000
