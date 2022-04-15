@@ -1,3 +1,7 @@
+#Referencias codigo
+#https://pythontic.com/modules/socket/udp-client-server-example
+#Como reusar puerto para evitar fallas al bajar el servidor
+#https://stackoverflow.com/questions/6380057/python-binding-socket-address-already-in-use
 import socket
 
 # Crear un socket UDP
