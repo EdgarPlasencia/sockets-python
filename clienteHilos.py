@@ -1,3 +1,6 @@
+#Referencias del codigo
+#April 10, 2022 by Digamber
+#https://www.positronx.io/create-socket-server-with-multiple-clients-in-python/
 import socket
 ClientMultiSocket = socket.socket()
 host = '172.17.37.100'
