@@ -1,3 +1,5 @@
+#Referencias para el codigo
+#https://pythontic.com/modules/socket/udp-client-server-example
 import socket
 
 # Create a UDP socket
